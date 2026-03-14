@@ -731,11 +731,18 @@ font-size:18px;
 font-size:14px;
 }
 
+
 .hero-buttons{
 flex-direction:column;
 gap:10px;
+align-items:center;
 }
 
+.hero-buttons .btn{
+width:160px;
+padding:10px 15px;
+font-size:14px;
+}
 .services-grid{
 grid-template-columns:1fr;
 }
@@ -803,9 +810,11 @@ font-size:16px;
 font-size:13px;
 }
 
-.btn{
-padding:10px 7px;
-font-size:14px;
+
+ .hero-buttons .btn{
+width:140px;
+padding:8px 12px;
+font-size:13px;
 }
 
 .about-image{

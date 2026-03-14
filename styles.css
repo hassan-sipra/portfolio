@@ -124,7 +124,8 @@ align-items:center;
 justify-content:center;
 text-align:center;
 color:white;
-background:linear-gradient(135deg,#4f46e5,#9333ea);
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url("images/hero-bg.jpg");;
 padding-top:80px;
 }
 

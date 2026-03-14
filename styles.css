@@ -443,11 +443,50 @@ color:#16a34a;
 
 /* CONTACT */
 
-.contact-content{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:40px;
+
+.contact-info-section{
+display:flex;
+flex-direction:column;
+gap:20px;
 }
+
+.contact-item{
+display:flex;
+align-items:center;
+gap:15px;
+background:#ffffff;
+padding:18px 20px;
+border-radius:10px;
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.contact-item:hover{
+transform:translateY(-5px);
+box-shadow:0 12px 25px rgba(0,0,0,0.15);
+}
+
+.contact-item i{
+font-size:22px;
+color:#2563eb;
+background:#eef2ff;
+padding:12px;
+border-radius:50%;
+min-width:45px;
+text-align:center;
+}
+
+.contact-item h4{
+font-size:16px;
+margin-bottom:4px;
+color:#111;
+}
+
+.contact-item p{
+font-size:14px;
+color:#555;
+}
+
 
 .contact-form{
 background:white;

@@ -244,6 +244,9 @@ color:#2563eb;
 .services{
 background:#f1f5f9;
 }
+.services section-title{
+color:rgba(255,255,255,0.1);
+}
 
 .services-grid{
 display:grid;
@@ -276,7 +279,10 @@ box-shadow:0 15px 35px rgba(0,0,0,0.15);
 
 
 /* SKILLS */
+.skills section-title{
 
+ color:rgba(255,255,255,0.1);
+}
 .skills-grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));

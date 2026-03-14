@@ -114,7 +114,7 @@ margin:4px 0;
 height:100vh;
 display:flex;
 align-items:center;
-background:linear-gradient(135deg,#2563eb,#9333ea);
+url:("images/bg.png")
 color:white;
 text-align:center;
 }

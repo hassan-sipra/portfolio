@@ -324,6 +324,9 @@ width:var(--target-width);
 background:linear-gradient(135deg,#2563eb,#9333ea);
 color:white;
 }
+.section-title{
+color:white
+}
 
 .achievements-grid{
 display:grid;
